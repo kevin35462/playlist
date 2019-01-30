@@ -1,5 +1,8 @@
-h1 {
+h1,
+p,
+a {
     text-align: center;
+    text-shadow: 2px 2px 5px red;
 }
 
 #cart {
@@ -12,6 +15,7 @@ h1 {
 .column {
     width: 18%;
     padding: 25px 0px;
+    border-style: double;
 }
 
 #images img {
@@ -60,7 +64,12 @@ input {
     font-size: 14px;
 }
 
-button {
-    font-size: 14px;
-    padding: 5px 10px;
+/*#button button {
+    display: block;
+    font-size: 18px;
+    align-items: center;
+    height: 70px;
+    font-weight: bold;
+    margin: 30px;
+
 }
